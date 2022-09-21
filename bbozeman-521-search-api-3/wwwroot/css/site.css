@@ -1,0 +1,51 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    color: white;
+    margin: auto;
+    display: block;
+    font-size: 122px;
+}
+
+text {
+    margin: auto;
+    display: block;
+}
+
+button {
+    margin: auto;
+    display: block;
+    color: green;
+}
+
+body {
+    display: block;
+    background-image: url("https://media.istockphoto.com/photos/canary-wharf-district-at-night-london-united-kingdom-picture-id1371290125?s=612x612");
+    background-color: #cccccc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#time {
+    visibility: hidden;
+    color: black;
+}
+
+#searchResults {
+    visibility: hidden;
+}
